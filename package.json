@@ -32,6 +32,12 @@
     "build::watch": "rollup -c -w"
   },
   "dependencies": {
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge",
+    "babel-plugin-transform-default-import": "^1.0.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -44,18 +50,8 @@
     "@rollup/plugin-babel": "^5.2.1",
     "@testing-library/react": "^9.5.0",
     "@testing-library/react-hooks": "^3.4.2",
-    "@types/react-dom": "^16.9.9",
-    "babel-core": "^7.0.0-bridge",
-    "babel-plugin-transform-default-import": "^1.0.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "react-dom": "^16.14.0",
-    "rollup": "^2.33.2",
-    "rollup-plugin-eslint": "^7.0.0",
-    "rollup-plugin-typescript2": "^0.26.0",
-    "typescript": "^3.9.7"
-  },
-  "devDependencies": {
     "@types/jest": "^24.9.0",
+    "@types/react-dom": "^16.9.9",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "babel-jest": "^26.6.3",
     "eslint": "^7.13.0",
@@ -65,11 +61,14 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "jest": "26.6.0",
-    "react": "^16.14.0",
-    "react-test-renderer": "^16.14.0"
+    "react-test-renderer": "^16.14.0",
+    "rollup": "^2.33.2",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.14.0"
   },
   "jest": {
     "moduleNameMapper": {
