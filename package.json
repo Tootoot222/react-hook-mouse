@@ -32,7 +32,6 @@
     "build::watch": "rollup -c -w"
   },
   "dependencies": {
-    "react": "^16.14.0 || ^17",
     "react-dom": "^16.14.0 || ^17"
   },
   "devDependencies": {
