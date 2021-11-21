@@ -1,5 +1,7 @@
 Sample project demonstrating a real-world usage of react-typescript-hook-mouse
 
+To test the main project, use `npm pack` to create a test release version, and `npm install ../react-typescript-hook-mouse.x.y.z.tgz` to install it here
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

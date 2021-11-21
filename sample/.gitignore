@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Don't include package lock so that testing the module is easier
+package-lock.json
